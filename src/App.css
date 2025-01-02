@@ -1,0 +1,57 @@
+.App {
+  width: 1600px;
+}
+.App-header {
+  width: 1200px;
+}
+
+.App-Head {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  height: 124px;
+}
+
+.Head {
+  margin-left: 594px;
+  position: relative;
+  top: 40px;
+  right: -26px;
+  transform: rotate(270deg);
+  background: black;
+  color: white;
+  width: 67px;
+  height: 33px;
+  text-align: center;
+  font-family: Anton;
+  font-size: 31px;
+}
+.Heading {
+  width: 322px;
+  height: 124px;
+  font-family: Anton;
+  font-size: 100px;
+  margin-top: 2px;
+  margin-left: 18px;
+}
+
+.Category {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+.Map-Category {
+  border: none;
+  background: none;
+  margin: 53px 0 32px 0;
+}
+
+.Naviget {
+  color: inherit; /* Цвет ссылок становится таким же, как цвет родительского элемента */
+  text-decoration: none; /* Убираем подчёркивание */
+  background-color: transparent; /* Фон прозрачный, чтобы не выделяться */
+  cursor: pointer; /* Оставляем указатель, чтобы было понятно, что ссылка кликабельна */
+}
