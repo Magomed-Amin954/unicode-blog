@@ -21,7 +21,8 @@ const Homepage = () => {
       <div className="Posts">
         <div className="Post-left">
           <div className="">
-            <img className="Post-Img--left" src={posts[0]?.image} />
+            <img className="Post-Img--left" src={posts[0]?.image} alt="картинка не прогрузилась
+            " />
           </div>
           <div className="Post-Left__name">
             {posts[0].title.substring(0, 20) + "..."}
@@ -33,7 +34,7 @@ const Homepage = () => {
         <div className="Post-right">
           <div className="">
             <div className="">
-              <img className="Post-Right__img" src={posts[1]?.image} />
+              <img className="Post-Right__img" src={posts[1]?.image} alt="картинка не прогрузилась" />
             </div>
             <div className="Post-Blok__right">
               {posts[1].title.substring(0, 20) + "..."}
@@ -44,7 +45,7 @@ const Homepage = () => {
           </div>
           <div className="Post-Right__Bottom">
             <div className="">
-              <img className="Post-Right__Png" src={posts[2]?.image} />
+              <img className="Post-Right__Png" src={posts[2]?.image} alt="картинка не прогрузилась" />
             </div>
             <div className="Post-Blok__right">
               {posts[2].title.substring(0, 20) + "..."}

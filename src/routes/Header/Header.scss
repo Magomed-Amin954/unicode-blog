@@ -1,0 +1,44 @@
+.Header {
+  width: 1600px;
+
+  &__container {
+    width: 1200px;
+  }
+
+  &__name {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    height: 124px;
+  }
+
+  &__head {
+    margin-left: 594px;
+    position: relative;
+    top: 40px;
+    right: -26px;
+    transform: rotate(270deg);
+    background: black;
+    color: white;
+    width: 67px;
+    height: 33px;
+    text-align: center;
+    font-family: Anton;
+    font-size: 31px;
+  }
+  &__heading {
+    width: 322px;
+    height: 124px;
+    font-family: Anton;
+    font-size: 100px;
+    margin-top: 2px;
+    margin-left: 18px;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
